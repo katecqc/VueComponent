@@ -5,6 +5,7 @@ import About from '../views/about';
 import Form from '../views/form';
 import Table from '../views/table';
 import TableSlot from '../views/table-slot';
+import Tree from '../views/tree';
 
 Vue.use(Router);
 
@@ -31,6 +32,10 @@ export default new Router({
     {
       path: '/table/slot',
       component: TableSlot,
+    },
+    {
+      path: '/tree',
+      component: Tree,
     },
   ],
 });
